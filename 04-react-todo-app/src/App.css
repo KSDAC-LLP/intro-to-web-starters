@@ -1,0 +1,133 @@
+/* :root {
+  --color-foreground-primary: #222;
+  --color-background-primary: #fff;
+  --elevation-1: 0px 3px 3px 1px #444;
+  --elevation-2: 0px 5px 3px 1px #222;
+  --dropshadow-1: drop-shadow(1px 3px 1px #000);
+  --space-0: 0;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.25rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+}
+
+@font-face {
+  font-family: UbuntuMono;
+  src: url(fonts/UbuntuMono-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: UbuntuMono;
+  src: url(fonts/UbuntuMono-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: UbuntuMono;
+  src: url(fonts/UbuntuMono-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: UbuntuMono;
+  src: url(fonts/UbuntuMono-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  height: 100vh;
+  height: 100svh;
+  width: 100vw;
+  width: 100svw;
+  padding: var(--space-0);
+  margin: var(--space-0);
+  background: var(--color-background-primary);
+  color: var(--color-foreground-primary);
+  overflow: hidden;
+  background: #fff url("./bg-01.png") repeat top left;
+  background-size: 33%;
+  background-attachment: fixed;
+  font-family: UbuntuMono, monospace;
+  font-size: 18px;
+}
+
+#appRoot {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - --space-1);
+  background: var(--color-background-primary);
+  margin: var(--space-6) var(--space-1) var(--space-0);
+  height: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  background: var(--color-background-primary);
+  filter: drop-shadow(var(--elevation-1));
+  padding: var(--space-1) var(--space-1);
+  font-size: var(--space-3);
+}
+
+.footer {
+  width: 100%;
+  padding: var(--space-2);
+  text-align: center;
+  font-size: var(--space-3);
+  color: var(--color-background-primary);
+  filter: var(--dropshadow-1);
+}
+
+.todoList {
+  height: 100%;
+  padding: var(--space-2);
+}
+
+.todoList .listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.todoList > .listItem > div {
+  padding: 5px;
+  border-bottom: 1px solid var(--color-foreground-primary);
+}
+.todoList > .listItem > div:first-child {
+  flex: 1;
+}
+.todoList > .listItem > div:nth-child(2) {
+  flex: 8;
+}
+.todoList > .listItem > div:last-child {
+  flex: 2;
+  text-align: right;
+}
+
+.addTodo {
+  padding: var(--space-2);
+  background: var(--color-background-primary);
+  display: flex;
+  flex-direction: row;
+}
+.addTodo input {
+  width: 100%;
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 800px) {
+  .content {
+    width: 800px;
+    margin: var(--space-6) auto var(--space-0);
+  }
+} */
